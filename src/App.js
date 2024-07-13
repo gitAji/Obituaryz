@@ -66,7 +66,12 @@ const App = () => {
         </p>
 
         <div className="buttons">
-          <a className="call" href="" target="_blank" rel="noopener noreferrer">
+          <a
+            className="live-button"
+            href="Tel:009475043797"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Call
           </a>
 
