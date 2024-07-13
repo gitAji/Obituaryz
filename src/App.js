@@ -10,11 +10,7 @@ const App = () => {
       <h1 className="main-heading">Obituary Notice</h1>
       <div className="obituary-card">
         <div className="image-section">
-          <img
-            src="https://via.placeholder.com/50?text=Lamp"
-            alt="Lamp"
-            className="side-lamp"
-          />
+          <img src="/lamp.png" alt="Lamp" className="side-lamp" />
           <div className="image-frame">
             <img
               src="/periyappa.jpg"
@@ -22,11 +18,7 @@ const App = () => {
               className="obituary-image"
             />
           </div>
-          <img
-            src="https://via.placeholder.com/50?text=Lamp"
-            alt="Lamp"
-            className="side-lamp"
-          />
+          <img src="/lamp.png" alt="Lamp" className="side-lamp" />
         </div>
         <h3 className="occasion-subtitle">
           The late Mr. Ganapathipillai Ganesan
