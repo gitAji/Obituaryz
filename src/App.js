@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from "react";
-
+import ReactDOM from "react-dom";
 import "./App.css";
+import "./index.css"; // Assuming this file contains global styles
+
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 
 const sendCondolences = () => {
   window.location.href =
@@ -153,10 +157,6 @@ const App = () => {
           </button>
         </div>
       </div>
-      <audio autoPlay loop>
-        <source src="/public/om.mp3" type="audio/mpeg" />
-        Your browser does not support the audio element.
-      </audio>
     </div>
   );
 };
