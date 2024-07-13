@@ -101,7 +101,7 @@ const App = () => {
 
           <a
             className="viber-button"
-            href="viber://contact?number=009475043797"
+            href="viber://contact?number=+9475043797"
             target="_blank"
             rel="noopener noreferrer"
           >
