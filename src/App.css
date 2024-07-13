@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
+  background-color: #e6f2ff; /* Light blue background */
+  padding: 20px;
+}
+
+.main-heading {
+  font-size: 2.5em;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.obituary-card {
+  background-color: #ffffff; /* White background for the card */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  text-align: center;
+}
+
+.image-section {
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-bottom: 20px;
+}
+
+.image-frame {
+  display: inline-block;
+  padding: 8px;
+  border: 5px solid #1e1e1e; /* Green border for the frame */
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.side-lamp {
+  width: 50px;
+  height: 50px;
+}
+
+.obituary-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.occasion-title {
+  font-size: 1.8em;
+  color: #333333; /* Darker text color */
+}
+
+.occasion-subtitle {
+  font-size: 1.5em;
+  color: #555555; /* Slightly lighter text color */
+  margin-bottom: 10px;
+}
+
+.obituary-dates {
+  color: #666666; /* Grey text color */
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.obituary-text {
+  margin-top: 20px;
+  font-size: 1em;
+  line-height: 1.5;
+  text-align: left;
+  color: #333333; /* Darker text color */
+}
+
+.flowers {
+  margin: 20px 0;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.live-button,
+.condolences-button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.live-button {
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.live-lamp {
+  margin-right: 10px;
+}
+
+.condolences-button {
+  background-color: #008CBA; /* Blue background */
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.live-button:hover {
+  background-color: #45a049;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.condolences-button:hover {
+  background-color: #007bb5;
 }
