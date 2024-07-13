@@ -1,10 +1,30 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
+
 const sendCondolences = () => {
   window.location.href =
     "mailto:kanesanobituary@gmail.com?subject=Condolences for Mr. Kanapathipillai Kanesan&body=Dear Family,%0D%0A%0D%0AI am deeply saddened to hear about the passing of Mr. Kanapathipillai Kanesan. Please accept my heartfelt condolences during this difficult time.%0D%0A%0D%0ASincerely,%0D%0A[Your Name]";
 };
+
 const App = () => {
+  useEffect(() => {
+    const createFlower = () => {
+      const flower = document.createElement("div");
+      flower.classList.add("flower");
+      flower.style.left = Math.random() * 100 + "vw";
+      flower.style.animationDuration = Math.random() * 2 + 3 + "s";
+      document.body.appendChild(flower);
+
+      setTimeout(() => {
+        flower.remove();
+      }, 5000);
+    };
+
+    const interval = setInterval(createFlower, 300);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <div className="container">
       <h1 className="main-heading">Obituary Notice</h1>
@@ -68,20 +88,23 @@ const App = () => {
         <div className="buttons">
           <a
             className="live-button"
-            href="https://youtube.com/@yarlripbook320?si=jVhGspXMapQn_K0W"
+            href="https://www.youtube.com/live/bGtxM9SRoew"
             target="_blank"
             rel="noopener noreferrer"
           >
             Live Stream
           </a>
 
-          <a
-            className="call-button"
-            href="Tel:0094773867798"
-            target="_blank"
-            rel=""
-          >
+          <a className="call-button" href="Tel:0094773867798" target="_blank">
             Call
+          </a>
+
+          <a
+            className="viber-button"
+            href="viber://contact?number=009475043797"
+            target="_blank"
+          >
+            Viber Call
           </a>
 
           <button className="condolences-button" onClick={sendCondolences}>
@@ -89,6 +112,10 @@ const App = () => {
           </button>
         </div>
       </div>
+      <audio autoPlay loop>
+        <source src="/background-music.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
     </div>
   );
 };

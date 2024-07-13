@@ -1,8 +1,9 @@
+/* Container and Card Styles */
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #e6f2ff; /* Light blue background */
   padding: 20px;
 }
@@ -18,10 +19,11 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  max-width: 600px;
+  max-width: 800px; /* Make the container wider */
   text-align: center;
 }
 
+/* Image Section Styles */
 .image-section {
   display: flex;
   align-items: center;
@@ -49,6 +51,7 @@
   object-fit: cover;
 }
 
+/* Text Styles */
 .occasion-title {
   font-size: 1.8em;
   color: #333333; /* Darker text color */
@@ -74,13 +77,14 @@
   color: #333333; /* Darker text color */
 }
 
-
+/* Button Styles */
 .buttons {
   margin-top: 20px;
 }
 
 .live-button,
 .call-button,
+.viber-button,
 .condolences-button {
   padding: 10px 20px;
   margin: 5px;
@@ -89,37 +93,60 @@
   cursor: pointer;
   font-size: 1.25em;
 }
+
 .call-button {
-  background-color: #4CAF50; /* Green background */
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.live-button {
-  background-color: #af4c4c; /* Green background */
+  background-color: #4caf50; /* Green background */
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.live-lamp {
-  margin-right: 10px;
+.live-button {
+  background-color: #af4c4c; /* Red background */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.viber-button {
+  background-color: #8a2be2; /* Purple background */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .condolences-button {
-  background-color: #008CBA; /* Blue background */
+  background-color: #008cba; /* Blue background */
   color: white;
 }
 
-.live-button:hover {
-  background-color: #45a049;
+.live-button:hover,
+.call-button:hover,
+.viber-button:hover,
+.condolences-button:hover {
+  opacity: 0.8;
 }
 
-.condolences-button:hover {
-  background-color: #007bb5;
-}
-a{
+a {
   text-decoration: none;
+}
+
+/* Flower Animation Styles */
+.flower {
+  position: absolute;
+  top: -50px;
+  width: 20px;
+  height: 20px;
+  background-image: url('/flower.png');
+  background-size: cover;
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+  }
 }
