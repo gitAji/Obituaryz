@@ -21,20 +21,19 @@ const App = () => {
           <img src="/lamp.png" alt="Lamp" className="side-lamp" />
         </div>
         <h3 className="occasion-subtitle">
-          The late Mr. Ganapathipillai Ganesan
+          The late Mr. Kanapathipillai Kanesan
         </h3>
         <p className="obituary-dates">
           Born in Kapar, Malaysia - Passed away on Friday, July 12, 2024
         </p>
 
         <p className="obituary-text">
-          The late Mr. Ganapathipillai Ganesan Ganapathipillai Ganesan, a
-          retired manager (co-op Nelliady), was born in Kapar, Malaysia, and
-          resided in Vatuwattai Alwaai(Point Petro). He passed away on Friday,
-          July 12, 2024.
+          The late Mr. Kanapathipillai Kanesan, a retired manager (co-op
+          Nelliady), was born in Kapar, Malaysia, and resided in Vatuwattai
+          Alwaai(Point Petro). He passed away on Friday, July 12, 2024.
         </p>
         <p className="obituary-text">
-          He is eldest son of the late Ganapathipillai Maheshwari and dear
+          He is eldest son of the late Kanapathipillai Maheshwari and dear
           son-in-law of the late Mr. Visivalingam, he was the beloved husband of
           Thiriphuvaneshwari(Vevi).
         </p>
@@ -44,7 +43,7 @@ const App = () => {
         </p>
         <p className="obituary-text">
           He was also the brother-in-law of Sivagangai, the late Chelladurai,
-          Parvathavarthini, Arulmolirani, Sivashankaranathan, the late
+          Parvathavarthini, Arulmolirani, the late Sivashankaranathan, the late
           Jenaranjini, and Kugathasan.
         </p>
         <p className="obituary-text">
@@ -67,18 +66,10 @@ const App = () => {
         </p>
 
         <div className="buttons">
-          <a
-            className="live-button"
-            href="https://youtube.com/@yarlripbook320?si=jVhGspXMapQn_K0W"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Live Stream
+          <a className="call" href="" target="_blank" rel="noopener noreferrer">
+            Call
           </a>
-          <p>
-            Note: The live stream is not public, it's only available with the
-            link
-          </p>
+
           <button className="condolences-button" onClick={sendCondolences}>
             Send Condolences
           </button>
