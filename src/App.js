@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 const sendCondolences = () => {
   window.location.href =
-    "mailto:kanesanobituary@gmail.com?subject=Condolences for Mr. Ganapathipillai Ganesan&body=Dear Family,%0D%0A%0D%0AI am deeply saddened to hear about the passing of Mr. Ganapathipillai Ganesan. Please accept my heartfelt condolences during this difficult time.%0D%0A%0D%0ASincerely,%0D%0A[Your Name]";
+    "mailto:kanesanobituary@gmail.com?subject=Condolences for Mr. Kanapathipillai Kanesan&body=Dear Family,%0D%0A%0D%0AI am deeply saddened to hear about the passing of Mr. Kanapathipillai Kanesan. Please accept my heartfelt condolences during this difficult time.%0D%0A%0D%0ASincerely,%0D%0A[Your Name]";
 };
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
           <div className="image-frame">
             <img
               src="/periyappa.jpg"
-              alt="Mr. Ganapathipillai Ganesan"
+              alt="Mr. Kanapathipillai Kanesan"
               className="obituary-image"
             />
           </div>
@@ -62,13 +62,13 @@ const App = () => {
         </p>
         <p className="obituary-text">
           For further information, please contact: Thiriphuvaneshwari (Wife)
-          Tel:075043797(SL)
+          Tel:0094773867798 Viber:009475043797
         </p>
 
         <div className="buttons">
           <a
             className="live-button"
-            href="Tel:009475043797"
+            href="Tel:0094773867798"
             target="_blank"
             rel="noopener noreferrer"
           >
