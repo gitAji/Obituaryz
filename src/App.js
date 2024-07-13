@@ -73,12 +73,6 @@ const App = () => {
           For further information, please contact: Thiriphuvaneshwari (Wife)
           Tel:075043797(SL)
         </p>
-        <div className="flowers">
-          <img
-            src="https://via.placeholder.com/100x50?text=Flowers"
-            alt="Flowers"
-          />
-        </div>
 
         <div className="buttons">
           <a
