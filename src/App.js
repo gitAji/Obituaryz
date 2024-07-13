@@ -74,6 +74,15 @@ const App = () => {
           >
             Call
           </a>
+          <div className="buttons">
+          <a
+            className="call-button"
+            href="Tel:0094773867798"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Call
+          </a>
 
           <button className="condolences-button" onClick={sendCondolences}>
             Send Condolences

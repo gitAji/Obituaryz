@@ -80,17 +80,24 @@
 }
 
 .live-button,
+.call-button,
 .condolences-button {
   padding: 10px 20px;
   margin: 5px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
-
-.live-button {
+.call-button {
   background-color: #4CAF50; /* Green background */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.live-button {
+  background-color: #af4c4c; /* Green background */
   color: white;
   display: flex;
   align-items: center;
@@ -112,4 +119,7 @@
 
 .condolences-button:hover {
   background-color: #007bb5;
+}
+a{
+  text-decoration: none;
 }
