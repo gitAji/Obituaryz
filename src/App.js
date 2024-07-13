@@ -95,7 +95,12 @@ const App = () => {
             Live Stream
           </a>
 
-          <a className="call-button" href="Tel:0094773867798" target="_blank">
+          <a
+            className="call-button"
+            href="Tel:0094773867798"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Call
           </a>
 
@@ -114,7 +119,7 @@ const App = () => {
         </div>
       </div>
       <audio autoPlay loop>
-        <source src="/background-music.mp3" type="audio/mpeg" />
+        <source src="/public/om.mp3" type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
     </div>
