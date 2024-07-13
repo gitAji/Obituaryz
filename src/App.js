@@ -71,6 +71,7 @@ const App = () => {
         </p>
         <p className="obituary-text">
           For further information, please contact: Thiriphuvaneshwari (Wife)
+          Tel:075043797(SL)
         </p>
         <div className="flowers">
           <img
