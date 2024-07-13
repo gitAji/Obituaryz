@@ -68,18 +68,18 @@ const App = () => {
         <div className="buttons">
           <a
             className="live-button"
-            href="Tel:0094773867798"
+            href="https://youtube.com/@yarlripbook320?si=jVhGspXMapQn_K0W"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Call
+            Live Stream
           </a>
-          <div className="buttons">
+
           <a
             className="call-button"
             href="Tel:0094773867798"
             target="_blank"
-            rel="noopener noreferrer"
+            rel=""
           >
             Call
           </a>
