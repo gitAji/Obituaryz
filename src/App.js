@@ -88,7 +88,10 @@ const App = () => {
           >
             Live Stream
           </a>
-
+          <p>
+            Note: The live stream is not public, it's only available with the
+            link
+          </p>
           <button className="condolences-button" onClick={sendCondolences}>
             Send Condolences
           </button>
