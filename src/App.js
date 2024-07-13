@@ -3,9 +3,6 @@ import ReactDOM from "react-dom";
 import "./App.css";
 import "./index.css"; // Assuming this file contains global styles
 
-import App from "./App";
-import reportWebVitals from "./reportWebVitals";
-
 const sendCondolences = () => {
   window.location.href =
     "mailto:kanesanobituary@gmail.com?subject=Condolences for Mr. Kanapathipillai Kanesan&body=Dear Family,%0D%0A%0D%0AI am deeply saddened to hear about the passing of Mr. Kanapathipillai Kanesan. Please accept my heartfelt condolences during this difficult time.%0D%0A%0D%0ASincerely,%0D%0A[Your Name]";
